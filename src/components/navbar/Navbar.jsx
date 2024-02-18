@@ -73,7 +73,7 @@ function Navbar() {
                     </Link>
                   </div> : ""}
 
-                  {user?.user?.email === "knupadhyay784@gmail.com" ? <div className="flow-root">
+                  {user?.user?.email === "ripdudeamazon@gmail.com" ? <div className="flow-root">
                     <Link to={'/dashboard'} className="-m-2 block p-2 font-medium text-gray-900" style={{ color: mode === 'dark' ? 'white' : '', }}>
                       admin
                     </Link>
@@ -88,13 +88,7 @@ function Navbar() {
                       Signup
                     </Link>
                   </div>}
-                  <div className="flow-root">
-                    <Link to={'/'} className="-m-2 block p-2 font-medium text-gray-900 cursor-pointer">
-                      <img
-                        className="inline-block w-10 h-10 rounded-full"
-                        src="https://overreacted.io/static/profile-pic-c715447ce38098828758e525a1128b87.jpg"
-                        alt="Dan_Abromov" />                                        </Link>
-                  </div>
+                  
                 </div>
 
                 <div className="border-t border-gray-200 px-4 py-6">
@@ -133,10 +127,10 @@ function Navbar() {
               </button>
 
               {/* Logo */}
-              <div className="ml-4 flex lg:ml-0">
-                <Link to={'/'} className='flex'>
-                  <div className="flex ">
-                    <h1 className=' text-2xl font-bold text-black  px-2 py-1 rounded' style={{ color: mode === 'dark' ? 'white' : '', }}>E-Bharat</h1>
+              <div className="ml-4 flex lg:ml-2 items-center lg:pl-4">
+                <Link to={'/'} className='flex items-center lg:pl-4'>
+                  <div className="flex items-center lg:pl-4">
+                    <h1 className=' text-3xl font-bold text-red-600  px-4 py-1 rounded items-center' style={{ color: mode === 'dark' ? 'white' : '', }}>Logo</h1>
                   </div>
                 </Link>
               </div>
@@ -153,7 +147,7 @@ function Navbar() {
                       Signup
                     </Link>}
 
-                  {user?.user?.email === 'ripdudeamazon@gmail.com' ? 
+                  {user?.user?.email === 'ripdudeamazon@gmail.com' && 'mdafjal2562003@gmail.com' ? 
                    <Link to={'/dashboard'} className="text-sm font-medium text-gray-700 " style={{ color: mode === 'dark' ? 'white' : '', }}>
                     Admin
                   </Link> : ""}
