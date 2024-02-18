@@ -6,8 +6,8 @@ import {getAuth} from 'firebase/auth';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAY5VdUrKqEGiYUiKQ7MdZAtIXpnm7lSo8",
-  authDomain: "myfirstapp-df5e5.firebaseapp.com",
+  apiKey: "",
+  authDomain: "",
   projectId: "myfirstapp-df5e5",
   storageBucket: "myfirstapp-df5e5.appspot.com",
   messagingSenderId: "584614904731",
